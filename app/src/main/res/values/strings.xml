@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Livdub Personal</string>
+    <string name="hint_api_key">Gemini API Key</string>
+    <string name="label_target_lang">لغة الدبلجة (الهدف)</string>
+    <string name="label_source">مصدر الصوت</string>
+    <string name="source_mic">المايك (حديث مباشر)</string>
+    <string name="source_system">صوت التطبيقات (النظام)</string>
+    <string name="btn_start">ابدأ الدبلجة</string>
+    <string name="btn_stop">إيقاف</string>
+    <string name="status_idle">جاهز</string>
+    <string name="channel_name">دبلجة مباشرة</string>
+
+    <string-array name="lang_names">
+        <item>العربية</item>
+        <item>الإنجليزية</item>
+        <item>الفرنسية</item>
+        <item>الإسبانية</item>
+        <item>الألمانية</item>
+        <item>التركية</item>
+        <item>الروسية</item>
+        <item>الفارسية</item>
+        <item>الهندية</item>
+        <item>الصينية (مبسطة)</item>
+        <item>اليابانية</item>
+        <item>الكورية</item>
+        <item>الإيطالية</item>
+        <item>البرتغالية (برازيل)</item>
+        <item>الأردية</item>
+    </string-array>
+
+    <string-array name="lang_codes">
+        <item>ar</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>de</item>
+        <item>tr</item>
+        <item>ru</item>
+        <item>fa</item>
+        <item>hi</item>
+        <item>zh-Hans</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>it</item>
+        <item>pt-BR</item>
+        <item>ur</item>
+    </string-array>
+</resources>
