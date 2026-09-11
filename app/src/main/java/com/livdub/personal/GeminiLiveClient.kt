@@ -42,7 +42,6 @@ class GeminiLiveClient(
     private var webSocket: WebSocket? = null
     private val client = OkHttpClient.Builder()
         .readTimeout(0, TimeUnit.MILLISECONDS) // اتصال مستمر (streaming)
-        .pingInterval(15, TimeUnit.SECONDS)
         .build()
 
     @Volatile
